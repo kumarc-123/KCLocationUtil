@@ -47,5 +47,5 @@ s.frameworks = "CoreLocation", "MapKit"
 s.source_files  = "KCLocationUtil/**/*.{h,m}"
 
 # 9
-s.resources = "KCLocationUtil/**/*.{png,jpeg,jpg,storyboard,xib}"
+#s.resources = "KCLocationUtil/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
