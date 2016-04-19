@@ -8,7 +8,7 @@ s.summary = "This is a very useful location managing utility which handles basic
 s.requires_arc = true
 
 # 2
-s.version = "1.0"
+s.version = "1.1"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }

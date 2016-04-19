@@ -94,7 +94,8 @@
                 break;
             case kCLAuthorizationStatusDenied:
             {
-                [self sendLocationWithSuccess:NO fromLocation:noLocation toLocation:noLocation withError:@"Location service is disabled for Salesgenie. Please go to Settings-> Salesgenie-> Location Services and set it to When In Use or Always"];
+                NSString *message = [NSString stringWithFormat:@"Location service is disabled for %@. Please go to Settings-> %@-> Location Services and set it to When In Use or Always", _applicationName, _applicationName];
+                [self sendLocationWithSuccess:NO fromLocation:noLocation toLocation:noLocation withError:message];
                 return;
                 
             }
@@ -186,7 +187,8 @@
         switch (authStatus) {
             case kCLAuthorizationStatusDenied:
             {
-                [self sendLocationWithSuccess:NO fromLocation:noLocation toLocation:noLocation withError:@"Location service is disabled for Salesgenie. Please go to Settings-> Salesgenie-> Location Services and set it to When In Use or Always"];
+                NSString *message = [NSString stringWithFormat:@"Location service is disabled for %@. Please go to Settings-> %@-> Location Services and set it to When In Use or Always", _applicationName, _applicationName];
+                [self sendLocationWithSuccess:NO fromLocation:noLocation toLocation:noLocation withError:message];
                 return;
                 
             }
