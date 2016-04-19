@@ -10,6 +10,8 @@
 		AD8FAE361CC614060029A33E /* KCLocationUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8FAE351CC614060029A33E /* KCLocationUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD8FAE3D1CC614060029A33E /* KCLocationUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8FAE321CC614060029A33E /* KCLocationUtil.framework */; };
 		AD8FAE421CC614060029A33E /* KCLocationUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8FAE411CC614060029A33E /* KCLocationUtilTests.m */; };
+		AD8FAE4E1CC614220029A33E /* KCLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8FAE4C1CC614220029A33E /* KCLocationManager.h */; };
+		AD8FAE4F1CC614220029A33E /* KCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8FAE4D1CC614220029A33E /* KCLocationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		AD8FAE3C1CC614060029A33E /* KCLocationUtilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCLocationUtilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD8FAE411CC614060029A33E /* KCLocationUtilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCLocationUtilTests.m; sourceTree = "<group>"; };
 		AD8FAE431CC614060029A33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD8FAE4C1CC614220029A33E /* KCLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCLocationManager.h; sourceTree = "<group>"; };
+		AD8FAE4D1CC614220029A33E /* KCLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCLocationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				AD8FAE351CC614060029A33E /* KCLocationUtil.h */,
 				AD8FAE371CC614060029A33E /* Info.plist */,
+				AD8FAE4C1CC614220029A33E /* KCLocationManager.h */,
+				AD8FAE4D1CC614220029A33E /* KCLocationManager.m */,
 			);
 			path = KCLocationUtil;
 			sourceTree = "<group>";
@@ -94,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD8FAE361CC614060029A33E /* KCLocationUtil.h in Headers */,
+				AD8FAE4E1CC614220029A33E /* KCLocationManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD8FAE4F1CC614220029A33E /* KCLocationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
